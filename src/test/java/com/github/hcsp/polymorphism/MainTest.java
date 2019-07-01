@@ -33,7 +33,7 @@ public class MainTest {
     public void 做煎牛排(CaptureSystemOutput.OutputCapture capture) {
         capture.expect(
                 Matchers.matchesRegex(
-                        "(?s).*洗煎锅\\s+倒油\\s+放牛排\\s+煎啊煎啊煎\\s+放胡椒粉\\s放盐\\s+香喷喷的煎牛排出锅啦\\s+.*"));
+                        "(?s).*洗煎锅\\s+倒油\\s+放牛排\\s+煎啊煎啊煎\\s+放胡椒粉\\s+放盐\\s+香喷喷的煎牛排出锅啦\\s+.*"));
         菜 一个菜 = new 煎牛排();
         一个菜.做一个菜();
     }
