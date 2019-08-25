@@ -9,13 +9,23 @@ public class 菜 {
         出锅();
     }
 
-    public void 洗锅() {}
+    public void 洗锅() {
+        System.out.println("洗炒锅");
+    }
 
-    public void 倒油() {}
+    public void 倒油() {
+        System.out.println("倒油");
+    }
 
-    public void 开始烹饪() {}
+    public void 开始烹饪() {
+        System.out.println("炒啊炒啊炒");
+    }
 
-    public void 放佐料() {}
+    public void 放佐料() {
+        System.out.println("放盐");
+    }
 
-    public void 出锅() {}
+    public void 出锅() {
+        System.out.println("出锅");
+    }
 }
