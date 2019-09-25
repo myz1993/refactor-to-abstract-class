@@ -3,7 +3,6 @@ package com.github.hcsp.polymorphism;
 public class 菜 {
     private String name;
 
-
     public 菜(String name) {
         this.name = name;
     }

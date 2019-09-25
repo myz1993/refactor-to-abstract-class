@@ -19,4 +19,11 @@ public class 煎牛排 extends 菜 {
         System.out.println("煎啊煎啊煎");
     }
 
+    @Override
+    public void 放佐料() {
+        System.out.println("放胡椒粉");
+        super.放佐料();
+    }
+
 }
+
