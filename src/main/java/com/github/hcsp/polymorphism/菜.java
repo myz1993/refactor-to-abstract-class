@@ -7,7 +7,6 @@ public class 菜 {
         this.name = name;
     }
 
-
     public void 做一个菜() {
         洗锅();
         倒油();
@@ -33,7 +32,6 @@ public class 菜 {
     }
 
     public void 出锅() {
-
         System.out.println("香喷喷的" + name + "出锅啦");
     }
 }
