@@ -1,6 +1,13 @@
 package com.github.hcsp.polymorphism;
 
 public class 煎牛排 extends 菜 {
+    public 煎牛排() {
+        this("煎牛排");
+    }
+
+    public 煎牛排(String name) {
+        super(name);
+    }
 
     @Override
     public void 洗锅() {
@@ -11,8 +18,5 @@ public class 煎牛排 extends 菜 {
     public void 开始烹饪() {
         System.out.println("煎啊煎啊煎");
     }
-    @Override
-    public void 出锅() {
-        System.out.println("香喷喷的煎牛排出锅了");
-    }
+
 }
