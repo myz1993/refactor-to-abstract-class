@@ -1,6 +1,6 @@
 package com.github.hcsp.polymorphism;
 
-public class 菜 {
+public abstract class 菜 {
     public void 做一个菜() {
         洗锅();
         倒油();
