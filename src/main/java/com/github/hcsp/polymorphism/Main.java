@@ -9,6 +9,5 @@ public class Main {
         for (菜 一个菜 : 菜们) {
             一个菜.做一个菜();
         }
-        
     }
 }
