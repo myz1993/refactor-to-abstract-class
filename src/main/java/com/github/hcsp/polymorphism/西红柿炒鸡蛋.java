@@ -11,4 +11,6 @@ public class 西红柿炒鸡蛋 extends 菜 {
         System.out.println("放西红柿");
         System.out.println("炒啊炒啊炒");
     }
+
+
 }

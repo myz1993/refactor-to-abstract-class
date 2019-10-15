@@ -15,6 +15,7 @@ public class 菜 {
         出锅();
     }
 
+
     public void 洗锅() {
         System.out.println("洗炒锅");
     }
