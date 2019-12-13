@@ -1,9 +1,7 @@
 package com.github.hcsp.polymorphism;
 
-public class 煎牛排 extends 菜 {
-	
-	@Override
-	public void 做一个菜()  {
+public class 煎牛排 {
+    public void 煎个牛排() {
         System.out.println("洗煎锅");
         System.out.println("倒油");
         System.out.println("放牛排");
