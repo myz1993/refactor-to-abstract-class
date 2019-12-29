@@ -2,10 +2,10 @@ package com.github.hcsp.polymorphism;
 
 public class 菜 {
     String name;
-//
-//    public 菜(String name) {
-//        this.name = name;
-//    }
+
+    public 菜(String name) {
+        this.name = name;
+    }
 
 
     public void 做一个菜() {

@@ -2,6 +2,10 @@ package com.github.hcsp.polymorphism;
 
 public class 清炒菜心 extends 菜 {
 
+    public 清炒菜心() {
+        super("清炒菜心");
+    }
+
     @Override
     public void 开始烹饪() {
         System.out.println("放青菜");
@@ -19,9 +23,5 @@ public class 清炒菜心 extends 菜 {
         System.out.println("放盐");
     }
 
-    @Override
-    public void 出锅() {
-        System.out.println("香喷喷的清炒菜心出锅啦");
-    }
 
 }
