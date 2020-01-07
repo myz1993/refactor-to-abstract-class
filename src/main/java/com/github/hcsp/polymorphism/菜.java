@@ -4,7 +4,7 @@ public class 菜 {
     private String name;
     private String pot;
 
-    public 菜(String name,String pot) {
+    public 菜(String name, String pot) {
         this.name = name;
         this.pot = pot;
 
@@ -19,7 +19,7 @@ public class 菜 {
     }
 
     public void 洗锅() {
-        System.out.println("洗"+pot+"锅");
+        System.out.println("洗" + pot + "锅");
     }
 
     public void 倒油() {
