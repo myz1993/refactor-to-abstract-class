@@ -31,7 +31,7 @@ public class 煎牛排 extends 菜{
     }
     @Override
     public void 出锅(){
-        菜名="牛排";
+        菜名="煎牛排";
         super.出锅();
     }
 }
