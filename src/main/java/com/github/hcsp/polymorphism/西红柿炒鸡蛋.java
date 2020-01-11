@@ -21,7 +21,7 @@ public class 西红柿炒鸡蛋 extends 菜{
     }
     @Override
     public void 出锅(){
-        菜名="西红柿鸡蛋";
+        菜名="西红柿炒鸡蛋";
         super.出锅();
     }
 
