@@ -1,6 +1,10 @@
 package com.github.hcsp.polymorphism;
 
-public class 清炒菜心 {
+public class 清炒菜心 extends 菜 {
+//    清炒菜心(String name) {
+//        super(name);
+//    }
+
     public void 做个清炒菜心() {
         System.out.println("洗炒锅");
         System.out.println("倒一点点油");
@@ -9,5 +13,25 @@ public class 清炒菜心 {
         System.out.println("放酱油");
         System.out.println("放盐");
         System.out.println("香喷喷的清炒菜心出锅啦");
+    }
+
+    @Override
+    public void 倒油() {
+        System.out.print("倒一点点油"+" ");
+    }
+    @Override
+    public void 放佐料(){
+        System.out.print("放酱油"+" ");
+        super.放佐料();
+    }
+    @Override
+    public void 开始烹饪(){
+        System.out.print("放青菜"+" ");
+        super.开始烹饪();
+    }
+    @Override
+    public void 出锅(){
+        菜名="清炒菜心";
+        super.出锅();
     }
 }

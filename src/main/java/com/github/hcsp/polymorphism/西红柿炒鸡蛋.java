@@ -1,6 +1,9 @@
 package com.github.hcsp.polymorphism;
 
-public class 西红柿炒鸡蛋 {
+public class 西红柿炒鸡蛋 extends 菜{
+//    西红柿炒鸡蛋(String name){
+//         super(name);
+//    }
     public void 做个西红柿炒鸡蛋() {
         System.out.println("洗炒锅");
         System.out.println("倒油");
@@ -10,4 +13,16 @@ public class 西红柿炒鸡蛋 {
         System.out.println("放盐");
         System.out.println("香喷喷的西红柿炒鸡蛋出锅啦");
     }
+    @Override
+    public void 开始烹饪(){
+        System.out.print("放鸡蛋"+" ");
+        System.out.print("放西红柿"+" ");
+        super.开始烹饪();
+    }
+    @Override
+    public void 出锅(){
+        菜名="西红柿炒鸡蛋";
+        super.出锅();
+    }
+
 }
