@@ -13,7 +13,7 @@ public class 西红柿炒鸡蛋 extends 菜{
     }
 
 
-  /*  public void 做个西红柿炒鸡蛋() {
+    /*  public void 做个西红柿炒鸡蛋() {
         System.out.println("洗炒锅");
         System.out.println("倒油");
         System.out.println("放鸡蛋");
