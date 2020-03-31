@@ -1,9 +1,6 @@
 package com.github.hcsp.polymorphism;
 
 public class 清炒菜心 extends 菜 {
-    public void 做个清炒菜心() {
-        super.做一个菜();
-    }
 
     @Override
     public void 洗锅() {
