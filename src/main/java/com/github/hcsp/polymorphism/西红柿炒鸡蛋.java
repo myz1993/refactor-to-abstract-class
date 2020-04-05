@@ -1,39 +1,13 @@
 package com.github.hcsp.polymorphism;
 
-public class 西红柿炒鸡蛋 extends 菜{
-//    @Override
-//    public void 洗锅() {
-//        super.洗锅();
-//    }
-
-//    @Override
-//    public void 倒油() {
-//        super.倒油();
-//    }
-
-    @Override
-    public void 开始烹饪() {
+public class 西红柿炒鸡蛋 {
+    public void 做个西红柿炒鸡蛋() {
+        System.out.println("洗炒锅");
+        System.out.println("倒油");
         System.out.println("放鸡蛋");
         System.out.println("放西红柿");
-        super.开始烹饪();
-    }
-//
-//    @Override
-//    public void 放佐料() {
-//        super.放佐料();
-//    }
-
-    @Override
-    public void 出锅() {
+        System.out.println("炒啊炒啊炒");
+        System.out.println("放盐");
         System.out.println("香喷喷的西红柿炒鸡蛋出锅啦");
     }
-
-//    public void 做个西红柿炒鸡蛋() {
-//        System.out.println("洗炒锅");
-//        System.out.println("倒油");
-//
-//        System.out.println("炒啊炒啊炒");
-//        System.out.println("放盐");
-//
-//    }
 }
