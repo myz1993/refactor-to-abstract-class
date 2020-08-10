@@ -1,21 +1,38 @@
 package com.github.hcsp.polymorphism;
 
 public class 菜 {
+    private String cookingType;
+
+    public 菜(String cookingType) {
+        this.cookingType = cookingType;
+    }
+
     public void 做一个菜() {
-        洗锅();
+        洗锅(cookingType);
         倒油();
-        开始烹饪();
+        开始烹饪(cookingType);
         放佐料();
         出锅();
     }
 
-    public void 洗锅() {}
+    public void 洗锅(String panType) {
+        System.out.println("洗" + panType + "锅");
+    }
 
-    public void 倒油() {}
+    public void 倒油() {
+        System.out.println("倒油");
+    }
 
-    public void 开始烹饪() {}
+    public void 开始烹饪(String cookingType) {
+        System.out.println(cookingType + "啊" + cookingType + "啊" + cookingType);
+    }
 
-    public void 放佐料() {}
+    public void 放佐料() {
+        System.out.println("放盐");
+    }
 
-    public void 出锅() {}
+    public void 出锅() {
+        System.out.println("香喷喷的" + this.getClass().getSimpleName() + "出锅啦");
+
+    }
 }

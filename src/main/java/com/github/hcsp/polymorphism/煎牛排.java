@@ -1,13 +1,19 @@
 package com.github.hcsp.polymorphism;
 
-public class 煎牛排 {
-    public void 煎个牛排() {
-        System.out.println("洗煎锅");
-        System.out.println("倒油");
+public class 煎牛排 extends 菜 {
+    public 煎牛排 () {
+        super("煎");
+    }
+
+    @Override
+    public void 开始烹饪(String cookingType) {
         System.out.println("放牛排");
-        System.out.println("煎啊煎啊煎");
+        super.开始烹饪(cookingType);
+    }
+
+    @Override
+    public void 放佐料() {
         System.out.println("放胡椒粉");
-        System.out.println("放盐");
-        System.out.println("香喷喷的煎牛排出锅啦");
+        super.放佐料();
     }
 }
