@@ -1,8 +1,6 @@
 package com.github.hcsp.polymorphism;
 
 public class 菜 {
-    String dishName;
-
     public void 做一个菜() {
         洗锅();
         倒油();
@@ -11,25 +9,13 @@ public class 菜 {
         出锅();
     }
 
-    public 菜(String dishName) {
-        this.dishName = dishName;
-    }
+    public void 洗锅() {}
 
-    public void 洗锅() {
-        System.out.println("洗炒锅");
-    }
+    public void 倒油() {}
 
-    public void 倒油() {
-        System.out.println("倒油");
-    }
+    public void 开始烹饪() {}
 
-    public void 开始烹饪() {
-    }
+    public void 放佐料() {}
 
-    public void 放佐料() {
-    }
-
-    public void 出锅() {
-        System.out.println("香喷喷的" + dishName + "出锅啦");
-    }
+    public void 出锅() {}
 }
