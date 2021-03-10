@@ -7,7 +7,8 @@ import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class MainTest {
+public class
+MainTest {
     @Test
     @CaptureSystemOutput
     public void 做西红柿炒鸡蛋(CaptureSystemOutput.OutputCapture capture) {
