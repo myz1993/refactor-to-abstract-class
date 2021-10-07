@@ -10,11 +10,11 @@ public class 菜 {
     }
 
     public void 洗锅() {
-        System.out.println("洗锅");
+        System.out.println("洗炒锅");
     }
 
     public void 倒油() {
-        System.out.println("倒一点点油");
+        System.out.println("倒油");
     }
 
     public void 开始烹饪() {
